@@ -11,6 +11,11 @@ import org.eclipse.ui.part.ViewPart;
 
 import com.example.experiments.filebrowser.fileutil.FileSystemBrowser;
 
+/**
+ * 
+ * @author Patrick Bédert
+ *
+ */
 public class FileView extends ViewPart {
 
 	private Tree tree;
