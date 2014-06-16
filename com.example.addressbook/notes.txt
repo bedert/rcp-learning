@@ -1,0 +1,16 @@
+Next: S.199 p2 Kapitel 26
+
+
+TODO:
+- Couple Editor and AddressView? 
+- OSGI Exported / Imported Packages
+- version number "qualifier"  
+- TUTORIAL 22.1 JFace DataBinding auschecken (GIT!)
+- New Command: Add Address
+- Address Editor: Add field validation (check for empty field)
+
+
+
+
+DONE:
+- Make UnitTests independent from the language (not complete but fine for learning)

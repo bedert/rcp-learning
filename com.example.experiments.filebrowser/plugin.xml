@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         id="application"
+         point="org.eclipse.core.runtime.applications">
+      <application>
+         <run
+               class="com.example.experiments.filebrowser.Application">
+         </run>
+      </application>
+   </extension>
+   <extension
+         point="org.eclipse.ui.perspectives">
+      <perspective
+            name="Dateien"
+            class="com.example.experiments.filebrowser.perspectives.FilePerspective"
+            id="com.example.experiments.filebrowser.fileperspective">
+      </perspective>
+   </extension>
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            class="com.example.experiments.filebrowser.views.FileView"
+            id="com.example.experiments.filebrowser.fileview"
+            name="name"
+            restorable="true">
+      </view>
+   </extension>
+
+</plugin>
